@@ -34,8 +34,8 @@
 </script>
 
 <style lang="stylus">
-  .header
-    color: #fff
+  /*.header*/
+  /*  color: #fff*/
     /*background : #000*/
     /*  .content-wrapper*/
     /*    padding :24px 12px 18px 24px*/
