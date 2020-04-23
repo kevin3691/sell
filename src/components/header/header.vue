@@ -130,5 +130,20 @@
       white-space nowrap
       overflow hidden
       text-overflow ellipsis
+      font-size 0
+      .bulletin-title
+        display inline-block
+        vertical-align top
+        margin-top 7px
+        width 22px
+        height 12px
+        bg-image('bulletin')
+        background-size 22px 12px
+        background-repeat no-repeat
+      .bulletin-text
+        vertical-align top
+        margin 0 4px
+        font-size 10px
+
 
 </style>
