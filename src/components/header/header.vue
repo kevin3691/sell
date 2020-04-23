@@ -23,7 +23,9 @@
       </div>
     </div>
     <div class="bulletin-wrapper">
-      <span></span>
+      <span class="bulletin-title"></span>
+      <span class="bulletin-text">{{seller.bulletin}}</span>
+      <i class="icon-keyboard_arrow_right"></i>
     </div>
   </div>
 
@@ -120,5 +122,13 @@
           margin-left 2px;
           line-height 24px
           font-size 10px
+
+    .bulletin-wrapper
+      height 28px
+      line-height 28px
+      padding 0 22px 0 12px
+      white-space nowrap
+      overflow hidden
+      text-overflow ellipsis
 
 </style>
