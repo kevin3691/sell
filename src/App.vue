@@ -30,7 +30,7 @@
       };
     },
     created(){//生命周期函数
-      this.$http.get('/api/seller').then((response)=>{
+      this.$http.get('/api/seller').then((response)=>{//异步获取数据,将data传给seller
         response = response.body;
         console.log("数据"+response)
         if (response.errno===ERR_OK){
