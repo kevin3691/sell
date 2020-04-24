@@ -35,7 +35,7 @@
         console.log("数据"+response)
         if (response.errno===ERR_OK){
             this.seller = response.data;
-            console.log(seller)
+            console.log(this.seller)
         }
       });
     },
